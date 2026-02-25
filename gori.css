@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 140, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-box {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 5);
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+#yes-btn {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(212, 32, 143);
+    color: white;
+    cursor:pointer;
+}
+
+#no-btn {
+    height: 30px;
+    width: 80px;
+    cursor: move;
+}
+#success{
+    display: none;
+    font-size:xx-large;
+    font-weight: 90px;
+    font-family: cursive;
+    text-align: center;
+}
+#video{
+    width: 500px;
+    height: 360px;
+
+}
