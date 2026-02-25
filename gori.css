@@ -17,13 +17,16 @@ body {
     width: 50%;
     height: 50%;
     text-align: center;
+     display: flex;
+    gap: 30px;
+    flex-direction: column;
     padding: 50px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 5);
 }
 
 .btn {
-    margin-top: 50px;
+    margin-top: 25px;
     padding: 8px 18px;
     border-radius: 6px;
     border: none;
@@ -61,3 +64,4 @@ body {
     height: 360px;
 
 }
+
